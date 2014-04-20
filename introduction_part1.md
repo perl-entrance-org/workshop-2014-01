@@ -1,5 +1,7 @@
 # Perl入学式
+<center>
 〜Part.1〜
+</center>
 
 ## アジェンダ
 - OSについて
