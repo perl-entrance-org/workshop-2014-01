@@ -39,7 +39,7 @@
 ## ターミナルを使う方法
 $ xcode-select --install
 
-- ターミナルに上記のコマンドを打ち込み, 改行キーで入力します.
+- ターミナルに上記のコマンドを打ち込み, Enterキーで入力します.
 
 <center>
 ![CLT for Xcodeのインストール]('clt_for_xcode.png')
