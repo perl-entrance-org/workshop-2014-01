@@ -36,42 +36,10 @@
     - 自習の方は, VMwareを利用して環境を構築することをおすすめします.
 - データは全てUSBメモリから読み書きされる為, ファイルの読み書きの速度等がUSBメモリの速度に依存します.
 
-## VMwareを利用する方法
-
-...
-
-## Ubuntu Bootable USBを利用する方法
-- 次に, WindowsからUbuntuを起動することができるBootable USBの作成方法について解説します.
-- Bootable USBを使うことで, Ubuntuの環境をお手軽に用意し, お手軽に試すことができます.
-    - Ubuntu Bootable USBをWindows PCに差し込めば, どこでもUbuntuを実行することができます.
-- また, 今回は説明を省きますが, HDDにWindowsとUbuntuをインストールして併用する｢デュアルブート｣の環境を設定する際にも, Bootable USBが必要となります.
-
-## 注意!
-- 前述の通り, ｢Ubuntu Bootable USB｣を利用する方法は, 間違った操作によってWindowsを破壊する可能性が｢VMware｣を利用する方法より高いです.
-- 特に, 初回起動時に｢Ubuntuのインストール｣を押して, HDDにUbuntuをインストールを進めてしまうと, 既にインストール済みのWindowsを上書きしてUbuntuをインストールしてしまいます.
-    - **デスクトップ上や, デスクトップ左側にある｢Ubuntuのインストール｣は絶対に選択しないで下さい!**
-    - 資料に基づいて, ｢Ubuntuのインストール｣を削除することを推奨します.
-
 ## ISOの入手
 
-...
-
-## xxxxの入手
-
-...
-
-## Bootable USBの作成
-
-...
-
-## Ubuntuの起動
-- 再起動時, ｢F12｣キーなどを連打してブートメニューを開いてください.
-    - どのデバイスから起動するか選択できますので, 作成したBootable USBを選択して下さい.
-- ブートメニューが開けない場合, ブートメニュー
-
-｢GNU GLUB｣が表示されるので, 一番上の選択肢である｢Try Ubuntu without installing｣を選択し, Enterを押して下さい.
-
-## インストールメニューの削除
-
-...
+- まず, いずれの場合でも必要になるUbuntuのISOデータを用意しましょう.
+    - [http://www.ubuntulinux.jp/download/ja-remix]
+    - なお今回は, ｢Ubuntu 13.10｣を利用します.
+    - 32bit/64bitはお使いのPCのCPUにあわせて選択して下さい.
 

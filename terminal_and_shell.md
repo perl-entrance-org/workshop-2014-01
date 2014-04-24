@@ -19,7 +19,19 @@
 
 ## ターミナルの開き方(Ubuntu)
 
-...
+- デスクトップ左上, Ubuntuのロゴが書いてあるボタンをクリックします.
+
+<center>
+![Icon](image/install_icon.png)
+</center>
+
+## ターミナルの開き方(Ubuntu)
+
+- テキストボックスに｢terminal｣と入力し, ｢端末｣をクリックして起動します.
+
+<center>
+![Terminal](image/call_terminal.png)
+</center>
 
 ## ターミナルの開き方(Mac)
 
@@ -110,7 +122,7 @@
 ## コマンド集(open)
     $ open .
 
-- `open DIRECTORY`で, `DIRECTORY`をFinderというファイルマネージャで表示出来ます.
+- `open DIRECTORY`で, `DIRECTORY`をFinderというファイルマネージャで開きます.
     - `open`は対象となるファイルの種類によって動作が変わります.
     - 例えばディレクトリが対象ならば上記のようにFinderで表示, テキストならばテキストエディタで表示...  という動作をします.
 - Ubuntuでは利用できません.
@@ -118,4 +130,4 @@
 ## 練習問題
 - ホームディレクトリに`perl-entrance`というディレクトリを作ろう.
 - 作った`perl-entrance`ディレクトリに移動しよう.
-- カレントディレクトリを`nautilus`もしくは`open`を使って, ファイルマネージャで開いてみよう.
+- カレントディレクトリ(`perl-entrance`)を, `nautilus`もしくは`open`を使って, ファイルマネージャで開いてみよう.
