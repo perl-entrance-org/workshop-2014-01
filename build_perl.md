@@ -96,7 +96,7 @@
     $ perl -MTerm::ANSIColor -E 'say colored("Hello World!", "bold blue");'
 
 - `Term::ANSIColor` はコアモジュールなので, どこでも使うことができます.
-- 使い方は `perldoc Term::ANSIColor` と打つと読めます (英語ですが). `coloerd` というサブルーチンが使えることがここでわかります.
+- 使い方は `perldoc Term::ANSIColor` と打つと読めます (英語ですが). `colored` というサブルーチンが使えることがここでわかります.
 - モジュールには使い方のドキュメントがついていて、`perldoc` コマンドで読むことができます.
 - 実際にエディタを使ってPerlプログラムを書いていく際は, これらのモジュールを `use` を使って読み出します.
 
