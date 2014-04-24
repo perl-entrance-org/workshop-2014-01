@@ -62,7 +62,7 @@
 - 今後は原則的に, `plenv`で作成したユーザPerlを使っていきます.
 
 ## plenv その他
-- `plenv system` と打つと, 現在のPerlをシステムPerlに戻すことができます.
+- `plenv global system` と打つと, 現在のPerlをシステムPerlに戻すことができます.
 - `plenv` とだけ打つと, 使えるコマンドの一部の説明が出力されます.
 - 局所的な場所だけ違うバージョンのPerlを使う `plenv local` というものもありますが, 今回は `plenv global` だけ使います.
 
