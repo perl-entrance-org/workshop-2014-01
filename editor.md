@@ -7,12 +7,12 @@
     - もちろん, EmacsやVimなど, 既に使い慣れているエディタがある方はそちらをお使いください.
 
 ## インストール for Ubuntu
-- [http://www.sublimetext.com/]へアクセス, サンプルムービー下部の｢Download｣ボタンからダウンロードします.
+- [http://www.sublimetext.com/](http://www.sublimetext.com/)へアクセス, サンプルムービー下部の｢Download｣ボタンからダウンロードします.
 - ダウンロードしたファイルを右クリックして, `ここに展開する`をクリックします.
 - `Sublime Text2`というフォルダができるので, その中の`sublime text`をクリックして起動します.
 
 ## インストール for Mac
-- [http://www.sublimetext.com/]へアクセス, サンプルムービー下部の｢Download｣ボタンからダウンロードします.
+- [http://www.sublimetext.com/](http://www.sublimetext.com/)へアクセス, サンプルムービー下部の｢Download｣ボタンからダウンロードします.
 - ダウンロードした｢Sublime Text 2.x.x.dmg｣(xは任意の数字)をダブルクリックし, 開いたウィンドウにある｢Sublime Text 2.app｣を｢Application｣にドラッグすればインストールは完了です.
 
 <center>

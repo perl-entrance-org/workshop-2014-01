@@ -98,3 +98,7 @@
 ![ubiquityの削除](imager/remove.png)
 </center>
 
+## Ubuntu環境の構築
+- 以上でUSBメモリを利用した環境構築は終了です.
+    - お疲れ様でした!
+

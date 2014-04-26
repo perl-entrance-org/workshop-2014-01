@@ -1,4 +1,4 @@
-# Xcodeのインストール
+# Xcodeの<br>インストール
 <center>
 〜Macユーザ向け〜
 </center>
@@ -15,7 +15,7 @@
     - インストールには30分程時間がかかります.
 
 <center>
-![Apple Storeのアイコン](image/apple_store.png)
+![Apple Storeのアイコン](public/image/apple_store.png)
 <br>
 △Apple Storeのアイコン
 </center>
@@ -31,27 +31,27 @@
     - 頻繁に起動するため, Dockへ追加しておくことをおすすめします.
 
 <center>
-![ターミナルのアイコン](image/terminal.png)
+![ターミナルのアイコン](public/image/terminal.png)
 <br>
-△ターミナルeのアイコン
+△Ternimalのアイコン
 </center>
 
 ## ターミナルを使う方法
-$ xcode-select --install
+    $ xcode-select --install
 
 - ターミナルに上記のコマンドを打ち込み, Enterキーで入力します.
 
 <center>
-![CLT for Xcodeのインストール](image/clt_for_xcode.png)
+![CLT for Xcodeのインストール](public/image/clt_for_xcode.png)
 <br>
-△Command Line Tools for Xcodeをインストールするコマンド
+△Command Line Tools for Xcodeを<br>インストールするコマンド
 </center>
 
 ## ターミナルを使う方法
 - コマンドを打ち込むとダイアログが表示されるので, あとはダイアログの指示に従ってインストールを進めて下さい.
 
 <center>
-![ダイアログ](image/clt_for_xcode_dialog.png)
+![ダイアログ](public/image/clt_for_xcode_dialog.png)
 </center>
 
 ## CLT for Xcodeのインストール
