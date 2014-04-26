@@ -23,7 +23,7 @@
     - [http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/]
 
 <center>
-![UUIの入手](image/unetbootin_download.png)
+![UUIの入手](public/image/uui_download.png)
 <br>
 △UUIのダウンロードリンク
 </center>
@@ -39,25 +39,32 @@
 - ダウンロードしたUUIを起動します.
 - ｢Step 1: Select a Linux ...｣は, ｢Ubuntu｣を選択します.
 - ｢Step 2 PENDING: Browse to your ...｣は, ｢Browse｣を選択して, ダウンロード済みのUbuntuのISOを選択します.
+
+## Bootable USBの作成
 - ｢Step 3: Select your USB ...｣は, Ubuntuの環境を構築するUSBメモリを選択してください.
     - ｢We will format ...｣のチェックボックスを選択します.
     - このとき, ｢Show all Drives｣のチェックボックスは**絶対に選択しないでください.**
 - ｢Step 4: Set a Persistent file size ...｣は, 適当な数値に設定しておきます(1024MB以上にしておくことを推奨します).
 
+##    
+    
+<center>
+![UUI](public/image/uui.png)
+</center>
+
 ## Bootable USBの作成
+
 
 - 問題なければ｢Create｣を選択します.
 - 次に出るポップアップは作業内容が表示されます. インストール先がUSBであることを確認しましょう.
     - 問題なければ｢はい (Y)｣をクリックし, 環境構築を開始します.
 
-<center>
-![UUI](image/uui.png)
-</center>
-
 ## Bootable USBの作成
 
 - 作業完了後, ｢Close｣でUUIを終了してから, PCを｢再起動｣します.
     - 再起動時に, Windowsが導入済みのHDD/SSDではなく, Ubuntu環境が構築されたUSBメモリを読み込むことによって, USBメモリに構築したUbuntu環境を利用します.
+
+## Bootable USBの作成
 - Ubuntu起動後, デスクトップに｢Ubuntu 13.10のインストール｣というアイコンがありますが, **このアイコンは絶対に起動しないでください.**
     - アイコンをダブルクリックして起動し, Ubuntu 13.10のインストールを進めた場合, **既にHDDに導入済みのWindowsが消去(Ubuntuで上書き)されます.**
 
@@ -75,7 +82,7 @@
     - ｢Ubuntu 13.10のインストール｣アイコンの左上, Ubuntuのロゴが書いてあるボタンをクリックします.
 
 <center>
-![Icon](image/install_icon.png)
+![Icon](public/image/install_icon.png)
 </center>
 
 ## インストール機能の削除
@@ -83,7 +90,7 @@
 - テキストボックスに｢terminal｣と入力し, ｢端末｣をクリックして起動します.
 
 <center>
-![Terminal](image/call_terminal.png)
+![Terminal](public/image/call_terminal.png)
 </center>
 
 ## インストール機能の削除
@@ -95,7 +102,7 @@
     - これでインストール機能の削除は完了です. デスクトップ上に残った｢Ubuntu 13.10のインストール｣アイコンは削除してしまいましょう.
 
 <center>
-![ubiquityの削除](imager/remove.png)
+![ubiquityの削除](public/image/remove.png)
 </center>
 
 ## Ubuntu環境の構築

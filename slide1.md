@@ -148,6 +148,9 @@
     - なお今回は, ｢Ubuntu 13.10｣を利用します.
     - 32bit/64bitはお使いのPCのCPUにあわせて選択して下さい.
 
+## Ubuntuのインストール
+- USBメモリを利用する方法は[こちら](https://github.com/perl-entrance-org/workshop-2014-01/blob/master/ubuntu_install_usb.md)を参照して下さい.
+- VMwareを利用する方法は[こちら](https://github.com/perl-entrance-org/workshop-2014-01/blob/master/ubuntu_install_vmware.md)を参照して下さい.
 # ターミナルとシェル入門
 
 ## CUI
