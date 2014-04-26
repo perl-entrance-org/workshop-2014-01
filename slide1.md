@@ -303,7 +303,7 @@
 - ダウンロードした｢Sublime Text 2.x.x.dmg｣(xは任意の数字)をダブルクリックし, 開いたウィンドウにある｢Sublime Text 2.app｣を｢Application｣にドラッグすればインストールは完了です.
 
 <center>
-![Sublime Text2のインストール](image/install_sublime_for_mac1.png)
+![Sublime Text2のインストール](public/image/install_sublime_for_mac1.png)
 <br>
 △｢Sublime Text 2.x.x.dmg｣ダブルクリック後の画面
 </center>
