@@ -177,14 +177,14 @@
 - ターミナルを開くと, シェルを使った操作が出来るようになります.
     - プログラムの起動や制御をCUIで行うプログラムのことをシェルと呼びます.
 
-![シェル](image/shell.png)
+![シェル](public/image/shell.png)
 
 ## ターミナルの開き方(Ubuntu)
 
 - デスクトップ左上, Ubuntuのロゴが書いてあるボタンをクリックします.
 
 <center>
-![Icon](image/install_icon.png)
+![Icon](public/image/install_icon.png)
 </center>
 
 ## ターミナルの開き方(Ubuntu)
@@ -192,7 +192,7 @@
 - テキストボックスに｢terminal｣と入力し, ｢端末｣をクリックして起動します.
 
 <center>
-![Terminal](image/call_terminal.png)
+![Terminal](public/image/call_terminal.png)
 </center>
 
 ## ターミナルの開き方(Mac)
@@ -201,7 +201,7 @@
     - 再掲ですが, ターミナルは頻繁に起動するため, Dockへ追加しておくことをおすすめします.
 
 <center>
-![ターミナルのアイコン](image/terminal.png)
+![ターミナルのアイコン](public/image/terminal.png)
 <br>
 △ターミナルのアイコン
 </center>
