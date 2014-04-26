@@ -1,4 +1,6 @@
 # Perl入学式
+
+
 # OSについて
 ## OSとは?
 - OSは, Operating System(オペレーティング･システム)の略です.
@@ -36,6 +38,8 @@
 - Macユーザ, Linuxユーザの方は...
     - 基本的に, 既にお手持ちのPC/環境を利用して頂きます.
     - Macの場合, 後々必要になる可能性が高い｢Xcode｣及び｢Command Line Tools for Xcode｣の導入を行います.
+
+
 
 
 
@@ -100,6 +104,8 @@
 ## CLT for Xcodeのインストール
 - 以上でXcodeとCommand Line Tools for Xcodeのインストールは終わりです.
     - お疲れ様でした!
+
+
 # Ubuntu環境の構築
 <center>
 〜Windowsユーザ向け〜
@@ -151,6 +157,9 @@
 ## Ubuntuのインストール
 - USBメモリを利用する方法は[こちら](https://github.com/perl-entrance-org/workshop-2014-01/blob/master/ubuntu_install_usb.md)を参照して下さい.
 - VMwareを利用する方法は[こちら](https://github.com/perl-entrance-org/workshop-2014-01/blob/master/ubuntu_install_vmware.md)を参照して下さい.
+
+
+
 # ターミナルとシェル入門
 
 ## CUI
@@ -285,6 +294,8 @@
 - ホームディレクトリに`perl-entrance`というディレクトリを作ろう.
 - 作った`perl-entrance`ディレクトリに移動しよう.
 - カレントディレクトリ(`perl-entrance`)を, `nautilus`もしくは`open`を使って, ファイルマネージャで開いてみよう.
+
+
 # エディタ入門
 
 ## エディタ
@@ -317,3 +328,5 @@
     - ファイルの中には, あなたの自己紹介を書きます.
 - ターミナルを使って, `profile.txt`を`profile2.txt`という名前でコピーしよう.
 - コピーした`profile2.txt`をターミナルから削除しよう.
+
+
