@@ -113,7 +113,7 @@
 ## モジュールをインストールしてみよう
 
     $ cpanm Acme::FizzBuzz
-    $ perl -MFizzBuzz -E ''
+    $ perl -MAcme::FizzBuzz -E ''
 
 - インストールが完了したら、あとはこのモジュールを読み込むだけでFizzBuzz問題を解決してくれます.
 
