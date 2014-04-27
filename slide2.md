@@ -232,6 +232,7 @@
 
 - ここでは, [@ytnobody](https://twitter.com/ytnobody) さんが作成した、[`plenv`簡単導入プログラム](http://yellowstore.blogspot.jp/2013/05/plenvrbenv.html)を使います.
 - 上記のコマンドを打って下さい. しばらくかかるので気長に待ちましょう.
+- 終わったら、`exit` して端末を開き直すか、`source ~/.bashrc`を実行してシェルの設定を読み直してください。
 
 - `plenv` と打って、ヘルプが出たら成功です. `which plenv` などとして、`plenv` コマンドの場所を確認してみましょう.
 - 簡単インストールコマンド詳細を確認したい方は `curl -L http://is.gd/plenvsetup | less` など打ってみましょう.
