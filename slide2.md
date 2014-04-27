@@ -221,7 +221,7 @@
 - Ubuntuでは`apt`によって、整合性のとれたシステムPerlへのPerlモジュール導入ができるので、`apt`で手に入るモジュールであれば、これでまかなうのもありでしょう.
 
 ## plenvの導入準備
-    $ sudo apt-get install git curl build-essentials ### Ubuntuのみ
+    $ sudo apt-get install git curl build-essential ### Ubuntuのみ
 
 - Ubuntuでは初期状態に`git`コマンドなどが入っていないので`apt-get`で導入します
 - Macの場合は初期状態で入っている`git`コマンドが使えます
