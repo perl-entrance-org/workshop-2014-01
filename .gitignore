@@ -4,3 +4,6 @@ app.pl
 /public/impress/
 /public/gcp/
 /public/css/
+
+/node_modules
+/build
