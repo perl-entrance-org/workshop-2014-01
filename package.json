@@ -1,0 +1,19 @@
+{
+  "name": "workshop-2014-01",
+  "version": "0.0.0",
+  "description": "Perl入学式の資料",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perl-entrance-org/workshop-2014-01.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perl-entrance-org/workshop-2014-01/issues"
+  },
+  "homepage": "https://github.com/perl-entrance-org/workshop-2014-01",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-concat": "^2.2.0"
+  }
+}
