@@ -19,7 +19,7 @@
     - MacでPerl環境を構築するためのその他のコマンドは、先ほどのXcodeで完了しています
 
 ## plenvの導入
-    $ curl -L http://is.gd/plenvsetup | sh
+    $ curl -L http://is.gd/plenvsetup | bash
 
 - ここでは, [@ytnobody](https://twitter.com/ytnobody) さんが作成した、[`plenv`簡単導入プログラム](http://yellowstore.blogspot.jp/2013/05/plenvrbenv.html)を使います.
 - 上記のコマンドを打って下さい. しばらくかかるので気長に待ちましょう.
