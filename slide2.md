@@ -28,9 +28,9 @@
 
 ## オンラインでのサポート
 - Perl入学式の公式ページ http://perl-entrance.org/
-- Twitterアカウント @[PerlEntrance](https://twitter.com/PerlEntrance)
+- Twitterアカウント @[Perl_Entrance](https://twitter.com/Perl_Entrance)
     - 公式ページやTiwtterアカウントでは, 開催日程などがアナウンスされます.
-- Twitterハッシュタグ #[PerlEntrance](https://twitter.com/search?f=realtime&q=%23PerlEntrance)
+- Twitterハッシュタグ #[Perl入学式](https://twitter.com/search?f=realtime&q=%23Perl入学式)
     - 運営側がウォッチしているので, なにか疑問があればこれをつけて気軽に質問してみましょう
 - [GitHubのPerl入学式アカウント](https://github.com/perl-entrance-org). 講義で使われたコードなどがあります.
 
