@@ -44,7 +44,7 @@
 - ｢Step 3: Select your USB ...｣は, Ubuntuの環境を構築するUSBメモリを選択してください.
     - ｢We will format ...｣のチェックボックスを選択します.
     - このとき, ｢Show all Drives｣のチェックボックスは**絶対に選択しないでください.**
-- ｢Step 4: Set a Persistent file size ...｣は, 適当な数値に設定しておきます(1024MB以上にしておくことを推奨します).
+- ｢Step 4: Set a Persistent file size ...｣は, 適当な数値に設定しておきます(3500〜4000MB程度にしておくことを推奨します).
 
 ##    
     
