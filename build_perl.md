@@ -1,8 +1,8 @@
 # Perl環境の構築
 
 ## システムPerlとユーザPerl
-- MacやLinuxなどの多くのシステムには最初からPerlが入っています。このPerlのことを **システムPerl** と呼ぶことがあります.
-- もちろんシステムPerlをそのまま使っても良いのですが、今後モジュールを入れたりする際にシステムPerlの環境を汚すことを避けるために、自分専用のPerl環境 **ユーザPerl** を構築することが最近の主流です
+- MacやLinuxなどの多くのシステムには最初からPerlが入っています。このPerlのことを **システムPerl** と呼びます.
+- もちろんシステムPerlをそのまま使っても良いのですが、今後モジュールを入れたりする際にシステムPerlの環境を汚すことを避けるために、自分専用のPerl環境, すなわち **ユーザPerl** を構築することが最近の主流です
 - 今回はユーザPerl構築環境の一つ **plenv** を導入していきましょう
 
 ## システムPerlは使わないの？
@@ -28,35 +28,35 @@
 - 簡単インストールコマンド詳細を確認したい方は `curl -L http://is.gd/plenvsetup | less` など打ってみましょう.
 
 ## plenvでのperlの導入
-    $ plenv install 5.18.2
+    $ plenv install 5.20.2
 
-- 今回は2014年4月時点での最新の安定版 `perl-5.18.2` を導入します.
+- 今回は2015年3月時点での最新の安定版 `perl-5.20.2` を導入します.
 - これも時間がかかるので気長に待ちましょう.
 
 ## plenvでのperlの導入
     $ plenv versions 
     * system (set by /home/username/.plenv/version)
-      5.18.2
+      5.20.2
 
 - `plenv versions` で, 導入したPerl の一覧が見られます. `*` が付いているのが現在選択されているperlで, `plenv` 導入直前はシステムPerlが選択されているはずです.
 
 ## plenvでのperlの導入
-    $ plenv global 5.18.2
+    $ plenv global 5.20.2
     $ plenv versions
       system
-    * 5.18.2 (set by /home/username/.plenv/version)
+    * 5.20.2 (set by /home/username/.plenv/version)
 
 - `plenv global` コマンドで, 使うperlを切り替えることができます.
 
 ## 現在有効なperlの確認
     $ plenv version
-    $ 5.18.2 (set by /home/ogata/.plenv/version)
+    $ 5.20.2 (set by /home/ogata/.plenv/version)
 
 - `plenv version` コマンドの他に、`perl -v` として実際にパスが通っている `perl` コマンドのバージョン情報を見るのが確実でしょう.
 
 ## 現在有効なperlの確認
     $ perl -v
-    his is perl 5, version 18, subversion 2 (v5.18.2) built for darwin-2level
+    his is perl 5, version 20, subversion 2 (v5.20.2) built for darwin-2level
     (以下略)
 
 - 今後は原則的に, `plenv`で作成したユーザPerlを使っていきます.
@@ -104,7 +104,7 @@
 - 実際にエディタを使ってPerlプログラムを書いていく際は, これらのモジュールを `use` を使って読み出します.
 
 ## FizzBuzz問題とAcme
-- `Acme::FizzBuzz` というモジュールを使って, FizzBuzz問題を自動で解いてみましょう.
+- `Acme::FizzBuzz` というモジュールを使って, FizzBuzz問題を自動で解いてみます.
 - FizzBuzz問題とは, 数字が3で割り切れたらFizzを, 数字が5で割り切れたらBuzzを, 数字が3でも5でも割り切れたらFizzBuzzを, そうでなければ数字を出力するプログラムのことです.
 - `Acme` というのは, CPANにおいてジョークなモジュールの為に用意された名前空間です.
 - ルーニー･テューンズのロードランナーの中に出てくる, コヨーテに怪しい商品を売るAcme社から来ている... らしい.
@@ -114,7 +114,7 @@
     $ cpanm Acme::FizzBuzz
     $ perl -MAcme::FizzBuzz -E ''
 
-- インストールが完了したら、あとはこのモジュールを読み込むだけでFizzBuzz問題を解決してくれます.
+- インストールが完了したら、あとはこのモジュールを読み込むだけでFizzBuzz問題を解決してくれます!
 
 ## PerlとモジュールとCPANの世界
 - CPANには, ジョークのようなモジュールから, ウェブプログラミングを支援するためのモジュール, TwitterやFacebookなどにアクセスして情報を取得するためのモジュールなど, ありとあらゆるものがあります.
